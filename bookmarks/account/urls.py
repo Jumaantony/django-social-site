@@ -26,4 +26,10 @@ urlpatterns = [
 
     # Django authentication URL
     # path('', include('django.contrib.auth.urls')),
+
+    # register
+    path('register/', views.register, name='register'),
+
+    # edit url
+    path('edit/', views.edit, name='edit')
 ]
